@@ -1,0 +1,297 @@
+@charset "utf-8";
+body{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #fffeec;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+/* header */
+.header{
+    height: 270%;
+    width: 100%;
+    background: url(img/背景写真.png);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+@media screen  and (min-width:768px){
+    .header{
+            height: 100%;
+            max-width: 100%;
+            background: url(img/背景写真.png);
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+    }
+}
+.header_font{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+@media screen  and (min-width:768px){
+    .header_font{
+            margin-left: 20px;
+            margin-top: 0px;
+    }
+
+}
+.header h1{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+@media screen  and (min-width:768px){
+    .header h1{
+        margin-bottom: 0;
+        padding-top: 2%;
+        font-size: 70px;
+        margin-left: 20px;
+    }
+}
+@media screen  and (min-width:768px){
+    .p{
+            margin-left: 20px;
+            font-size: 35px;
+    }
+}
+.word{
+    margin-left: 10%;
+    margin-top: 25%;
+    padding-bottom: 0;
+}
+@media screen  and (min-width:768px){
+    .word{
+        margin-left: 15%;
+        margin-top: 10%; 
+        font-size: 25px; 
+        padding-bottom: 20%; 
+    }
+}
+/* /header */
+/* nav */
+.nav{
+   margin-top: 0;
+   margin-bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    width: 100%;
+    height: 3%;
+    background-color: #fffeec;
+    position: fixed;/*fixedを設定して固定*/
+    z-index: 999;/*最前面へ*/
+    top:0;/*位置指定*/
+    left:0;/*位置指定*/
+}
+@media screen  and (min-width:768px){
+    .nav{
+        height: 5%;
+    }
+}
+.nav li{      
+    list-style: none;
+    margin-bottom: 0;
+    /* padding-top: 10px; */
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+}
+@media screen  and (min-width:768px){
+    .nav a{
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+    }
+}
+.nav a:hover{
+    color: #d2691e;
+}
+/* nav */
+/* main */
+.main_1{
+    background-color: #fcd268;
+}
+.main_font{
+    margin-left: 20px;
+    font-size: 10px;
+}  
+@media screen  and (min-width:768px){
+    .main_font{
+        /* padding-left: 25%; */
+        font-size: 17px;
+        margin-left: 0;
+    }
+} 
+.main_p{
+    margin-bottom: 15px;
+}
+
+.test{
+    height: 130px;
+    background: url(img/くる２.png);    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 20px;
+    
+}
+.main_pro{
+    margin-bottom: 5%;
+}
+@media screen  and (min-width:768px){
+    .test{
+        height: 50%;
+    background: url(img/くる２.png);    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    padding-left: 25%;
+    }
+}
+/* fontだけのクラス作る　左余白開けるため */
+.main_font h2{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+@media screen  and (min-width:768px){
+    .main_font h2{
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-top: 10px;       
+         padding-left: 25%;
+         margin-right: 25%;
+    }
+}
+.skill{
+    padding-left: 0px;
+}
+.skill li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+}
+@media screen  and (min-width:768px){
+    .skill li{
+        list-style: none;
+        padding: 5px 0;
+        font-size: 17px;
+        padding-left: 25%;
+    }
+}
+.hana{
+    width: 235px;
+    float: right;
+    margin-right: 20px;
+}
+@media screen  and (min-width:768px){
+    .hana{
+        width: 235px;
+        float: right;
+        margin-right: 40%;
+    }
+}
+.main_sikaku{
+    font-size: 10px;
+    margin-left: 0%;
+    margin-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+}
+@media screen  and (min-width:768px){
+    .main_sikaku{
+        font-size: 17px;       
+         padding-top: 10px;
+         padding-bottom: 5px;
+         text-align: left;
+         padding-left: 25%;
+    }
+}
+.main_2{
+    background-color: #c7b299;
+}
+@media screen  and (min-width:768px){
+    .main_2{
+        padding-left: 0%;
+    }
+}
+.main_2 h2{
+    margin-top: 0;
+    margin-left: 20px;text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+@media screen  and (min-width:768px){
+    .main_2 h2{
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+/* 作品 */
+.main_img li{
+    list-style: none;
+    margin-bottom: 20px;
+      
+}
+.main_img{
+    columns: 2;
+    padding:0 ;
+    margin:0;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+@media screen  and (min-width:768px){
+    .main_img img{
+        vertical-align: bottom;
+    }
+}
+@media screen  and (min-width:768px){
+    .main_img{
+        columns: 4;/*段組みの数*/
+        padding:0 ;/*ギャラリー左右に余白をつける*/
+        margin:0;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+}
+/* /main */
+/* footer */
+.mail{
+    text-align: right;
+    margin-right: 10px;
+}
+@media screen  and (min-width:768px){
+    .mail{
+        text-align: right;
+        margin-right: 17px;
+    }
+}
+.mail a{
+    text-decoration: none;
+    color: #000;
+}
+.mail a:hover{
+    color: #d2691e;
+}
+/* .main_ul{
+    list-style: none;
+    column-count: 2;
+    width: fit-content;
+
+} */
+/* /footer */
