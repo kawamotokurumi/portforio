@@ -145,9 +145,7 @@ body{
     margin-right: 20px;
     
 }
-.main_pro{
-    padding-bottom: 10%;
-}
+
 @media screen  and (min-width:768px){
     .test{
         height: 50%;
