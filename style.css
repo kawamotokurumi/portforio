@@ -91,6 +91,9 @@ body{
     top:0;/*位置指定*/
     left:0;/*位置指定*/
 }
+.nav a{
+    position: center;
+}
 @media screen  and (min-width:768px){
     .nav{
         height: 5%;
